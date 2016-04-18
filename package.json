@@ -1,0 +1,18 @@
+{
+  "name": "influx",
+  "main": "./lib/influx",
+  "version": "0.0.0",
+  "description": "an influx console package for atom editor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "influx:toggle"
+  },
+  "repository": "https://github.com/imrichardcole/influx",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

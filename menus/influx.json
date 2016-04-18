@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle influx",
+        "command": "influx:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "influx",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "influx:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
